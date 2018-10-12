@@ -24,8 +24,9 @@ Following implemention if more time was allowed:
 * [json2csharp](http://json2csharp.com/)
 * [Xml2CSharp](https://xmltocsharp.azurewebsites.net/)
 
-
+### Pre-requisite
+* .NET Core 2.1
 
 ### Console application
 
-Simply run application from visual studio...
+To run the application, simply open it in Visual Studio and run it.
