@@ -1,13 +1,8 @@
 # File extraction and parsing challenge
 ## Retrieving racing horses from XML and JSON files and displaying them in a console application sorted out by price.
 
-.NET core console application with two class libraries and a testing project
+.NET Core console application with two class libraries and a testing project
 
-### Documentation
-XML documentation can be found in root:
-```
-fileExraction_challenge\fileExraction.xml
-```
 ### Unit Testing
 Unit testing is available for that project using MS test.
 
