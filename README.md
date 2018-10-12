@@ -12,7 +12,7 @@ fileExraction_challenge\fileExraction.xml
 Unit testing is available for that project using MS test.
 
 ### Time limit
-This solution has been developed with a 3 time limit.
+This solution has been developed with a 3 hours time limit.
 Following implemention if more time was allowed:
 
 * More unit testing with more specific cases (catching proper exceptions, ordering of the list...)
