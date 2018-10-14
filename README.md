@@ -7,8 +7,9 @@
 Unit testing is available for that project using MS test.
 
 ### Time limit
-This solution has been developed with a 2 hours time limit.
-Total time spent with read.me: 2h30 
+This solution has been developed with a 2 hours time limit
+* Total time spent with read.me: 2h30 
+
 Following implemention if more time was allowed:
 
 * More unit testing with more specific cases (catching proper exceptions, ordering of the list...)
@@ -21,7 +22,7 @@ Following implemention if more time was allowed:
 * [Xml2CSharp](https://xmltocsharp.azurewebsites.net/)
 
 ### Pre-requisite
-* .NET Core 2.1
+* [.NET Core 2.1](https://www.microsoft.com/net/download) 
 
 ### Console application
 
