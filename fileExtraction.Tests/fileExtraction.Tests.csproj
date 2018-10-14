@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TestData\InvalidJSON.json" />
+    <None Remove="TestData\InvalidXML.xml" />
+    <None Remove="TestData\ValidJSON.json" />
+    <None Remove="TestData\ValidXML.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TestData\InvalidJSON.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\InvalidXML.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\ValidXML.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\ValidJSON.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HorseHandler\HorseHandler.csproj" />
+    <ProjectReference Include="..\JSON-Extractor\JSON-Extractor.csproj" />
+    <ProjectReference Include="..\XML-Extractor\XML-Extractor.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FileExtractorTest.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+</Project>
